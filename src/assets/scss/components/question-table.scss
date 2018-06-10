@@ -1,0 +1,34 @@
+.question-table {
+  &-item {
+    &-buttons {
+      padding-top: 20px;
+      text-align: right;
+    }
+
+    &-header {
+      margin: 0;
+      font-weight: 600;
+
+      div {
+        float: right;
+        padding: 0 20px;
+      }
+    }
+
+    &-alternative {
+      display: block !important;
+      height: 30px !important;
+      line-height: 30px !important;
+
+      span {
+        color: black !important;
+      }
+
+      &.correct {
+        span {
+          color: green !important;
+        }
+      }
+    }
+  }
+}
