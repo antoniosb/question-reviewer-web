@@ -7,11 +7,9 @@ let initialState = {
   token: ''
 }
 
-if (window && window.localStorage) {
-  const storageInfo = window.localStorage.getItem(USER_STORAGE_KEY)
-  if (storageInfo) {
-    initialState = JSON.parse(atob(storageInfo))
-  }
+const storageInfo = window.localStorage.getItem(USER_STORAGE_KEY)
+if (storageInfo) {
+  initialState = JSON.parse(atob(storageInfo))
 }
 
 export function setData(data) {
@@ -51,9 +49,7 @@ export default function reducer(state = initialState, action) {
       break
   }
 
-  if (window && window.localStorage) {
-    window.localStorage.setItem(USER_STORAGE_KEY, btoa(JSON.stringify(obj)))
-  }
+  window.localStorage.setItem(USER_STORAGE_KEY, btoa(JSON.stringify(obj)))
   return obj
 }
 

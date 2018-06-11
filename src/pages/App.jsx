@@ -25,7 +25,7 @@ class App extends React.PureComponent {
                 <PrivateRoute exact path="/questions" component={QuestionList}/>
                 <PrivateRoute exact path="/questions/:id" component={QuestionCrudPage}/>
                 <Route path="/login" component={AuthPage} key="login"/>
-                <Route path="/cadastro" component={AuthPage} key="cadastro"/>
+                <Route path="/signUp" component={AuthPage} key="signUp"/>
                 <Route component={NotFoundPage} />
               </Switch>
             </div>

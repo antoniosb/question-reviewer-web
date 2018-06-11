@@ -3,6 +3,8 @@ import { Form, Icon, Input, Button, Alert, Col, Radio } from 'antd'
 import questionService from '../services/question'
 import { withRouter } from "react-router-dom";
 import formConfig from '../utils/formConfig'
+import getApiErrorMessage from '../utils/error'
+
 const RadioGroup = Radio.Group;
 const TextArea = Input.TextArea
 
@@ -45,23 +47,13 @@ class QuestionCrudPage extends React.Component {
           obj.alternatives[idx].is_correct = obj.correctAlternative === idx
         })
         delete obj.correctAlternative
-        let method = questionService.create
-        if (this.state.isEdit) {
-          obj.id = this.state.question.id
-          method = questionService.update
-        }
+        obj.id = this.state.question.id
 
-        method(obj).then(() => {
+        questionService.save(obj).then(() => {
           this.props.history.push('/questions')
         }).catch((err) => {
-          if (err.response && err.response.status === 400) {
-            this.setState({ errorMsg: 'Confira os dados e tente novamente' })
-          } else {
-            this.setState({ errorMsg: 'Ops! Ocorreu um erro inesperado no servidor' })
-          }
+          this.setState({ errorMsg: getApiErrorMessage('Questão', err) })
         })
-      } else {
-        this.setState({ errorMsg: 'Confira os dados e tente novamente' })
       }
     })
   }
@@ -73,7 +65,7 @@ class QuestionCrudPage extends React.Component {
         this.setState({ question, correctAlternativeIndex })
       }).catch((err) => {
         if (err.response && err.response.status === 404) {
-          this.props.history.push('/404?msg=INVALID_QUESTION')
+          this.props.history.push('/404')
         }
       })
     }
@@ -81,9 +73,11 @@ class QuestionCrudPage extends React.Component {
 
   render() {
     const { getFieldDecorator } = this.props.form;
+    const { isEdit, question } = this.state
     return (
       <Form onSubmit={this.handleSubmit} className="question-crud-page">
-        <h1>Cadastro Questão</h1>
+        {!isEdit && <h1>Cadastro Nova Questão</h1>}
+        {isEdit && <h1>Cadastro Questão #{question.id}</h1>}
         { this.state.errorMsg && <Alert message={this.state.errorMsg} type="error" style={{ marginBottom: 20 }} /> }
         <FormItem {...formItemLayout} label="Conteúdo">
           {getFieldDecorator('content', formConfig({ initialValue: this.state.question.content }))(

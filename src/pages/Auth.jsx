@@ -9,7 +9,7 @@ import getApiErrorMessage from '../utils/error';
 
 const FormItem = Form.Item;
 
-class AuthPage extends React.Component {
+export class AuthPage extends React.Component {
   constructor (props){
     super(props)
     const isLogin = this.props.match.path === '/login'
@@ -36,9 +36,8 @@ class AuthPage extends React.Component {
         const method = this.state.isLogin ? userService.login : userService.signUp
 
         method(values).then(() => {
-          this.setState({ authenticated: true })
+          this.props.history.push('/')
         }).catch((err) => {
-          console.log({ err })
           this.setState({ errorMsg: getApiErrorMessage('Usuário', err) })
         })
       }
@@ -50,7 +49,6 @@ class AuthPage extends React.Component {
     const { title, isLogin } = this.state
     return (
       <Form onSubmit={this.handleSubmit} className="auth-page">
-        { this.state.authenticated && <Redirect to="/" /> }
         <h1>{ title }</h1>
         { this.state.errorMsg && <Alert message={this.state.errorMsg} type="error" /> }
         <FormItem>
@@ -64,16 +62,18 @@ class AuthPage extends React.Component {
           )}
         </FormItem>
         <FormItem>
-          {!isLogin && [<Button type="secondary" onClick={() => this.props.history.go(-1)} className="auth-page-button">
+          {!isLogin && [<Button key="voltar" type="secondary" onClick={() => this.props.history.go(-1)} className="auth-page-button">
             Voltar
           </Button>,
-          <Button type="primary" htmlType="submit" className="auth-page-button">
+          <Button key="cadastrar" type="primary" htmlType="submit" className="auth-page-button">
             Cadastrar
           </Button>
           ]}
-          {isLogin && [<Button type="primary" htmlType="submit" className="auth-page-button">
+          {isLogin && [<Button key="entrar" type="primary" htmlType="submit" className="auth-page-button">
             Entrar
-          </Button>, <Link to="/cadastro">ou criar uma nova conta</Link>]}
+          </Button>, <Button key="cadastrar" type="secondary" onClick={() => this.props.history.push('/signUp')} className="auth-page-button">
+            Cadastro novo Usuário
+          </Button>]}
         </FormItem>
       </Form>
     );

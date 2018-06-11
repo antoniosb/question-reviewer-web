@@ -1,0 +1,1236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > QuestionRevisionHistory Render 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionRevisionHistory
+    value={
+      Object {
+        "question_revisions": Array [
+          Object {
+            "comment": "Test",
+            "updated_at": "2000-02-01T10:00:00.000Z",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Button
+          ghost={false}
+          icon="clock-circle-o"
+          loading={false}
+          onClick={[Function]}
+          prefixCls="ant-btn"
+        />,
+        <h4>
+          Última Revisão (
+          01/02/2000 às 05:00
+          ): 
+        </h4>,
+        " ",
+        "Test",
+        <Modal
+          confirmLoading={false}
+          footer={
+            Array [
+              <Button
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+              >
+                Fechar
+              </Button>,
+            ]
+          }
+          maskTransitionName="fade"
+          okType="primary"
+          prefixCls="ant-modal"
+          title="Revisões da Questão #undefined"
+          transitionName="zoom"
+          visible={false}
+          width={520}
+        >
+          <div
+            className="question-revision-history-item"
+          >
+            <h4>
+              01/02/2000 às 05:00
+              : 
+            </h4>
+            Test
+          </div>
+        </Modal>,
+      ],
+      "className": "question-revision-history",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "ghost": false,
+          "icon": "clock-circle-o",
+          "loading": false,
+          "onClick": [Function],
+          "prefixCls": "ant-btn",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Última Revisão (",
+            "01/02/2000 às 05:00",
+            "): ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Última Revisão (",
+          "01/02/2000 às 05:00",
+          "): ",
+        ],
+        "type": "h4",
+      },
+      " ",
+      "Test",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="question-revision-history-item"
+            >
+              <h4>
+                01/02/2000 às 05:00
+                : 
+              </h4>
+              Test
+            </div>,
+          ],
+          "confirmLoading": false,
+          "footer": Array [
+            <Button
+              ghost={false}
+              loading={false}
+              onClick={[Function]}
+              prefixCls="ant-btn"
+            >
+              Fechar
+            </Button>,
+          ],
+          "maskTransitionName": "fade",
+          "okType": "primary",
+          "prefixCls": "ant-modal",
+          "title": "Revisões da Questão #undefined",
+          "transitionName": "zoom",
+          "visible": false,
+          "width": 520,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  01/02/2000 às 05:00
+                  : 
+                </h4>,
+                "Test",
+              ],
+              "className": "question-revision-history-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "01/02/2000 às 05:00",
+                    ": ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "01/02/2000 às 05:00",
+                  ": ",
+                ],
+                "type": "h4",
+              },
+              "Test",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Button
+            ghost={false}
+            icon="clock-circle-o"
+            loading={false}
+            onClick={[Function]}
+            prefixCls="ant-btn"
+          />,
+          <h4>
+            Última Revisão (
+            01/02/2000 às 05:00
+            ): 
+          </h4>,
+          " ",
+          "Test",
+          <Modal
+            confirmLoading={false}
+            footer={
+              Array [
+                <Button
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+                >
+                  Fechar
+                </Button>,
+              ]
+            }
+            maskTransitionName="fade"
+            okType="primary"
+            prefixCls="ant-modal"
+            title="Revisões da Questão #undefined"
+            transitionName="zoom"
+            visible={false}
+            width={520}
+          >
+            <div
+              className="question-revision-history-item"
+            >
+              <h4>
+                01/02/2000 às 05:00
+                : 
+              </h4>
+              Test
+            </div>
+          </Modal>,
+        ],
+        "className": "question-revision-history",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "ghost": false,
+            "icon": "clock-circle-o",
+            "loading": false,
+            "onClick": [Function],
+            "prefixCls": "ant-btn",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Última Revisão (",
+              "01/02/2000 às 05:00",
+              "): ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Última Revisão (",
+            "01/02/2000 às 05:00",
+            "): ",
+          ],
+          "type": "h4",
+        },
+        " ",
+        "Test",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="question-revision-history-item"
+              >
+                <h4>
+                  01/02/2000 às 05:00
+                  : 
+                </h4>
+                Test
+              </div>,
+            ],
+            "confirmLoading": false,
+            "footer": Array [
+              <Button
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+              >
+                Fechar
+              </Button>,
+            ],
+            "maskTransitionName": "fade",
+            "okType": "primary",
+            "prefixCls": "ant-modal",
+            "title": "Revisões da Questão #undefined",
+            "transitionName": "zoom",
+            "visible": false,
+            "width": 520,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    01/02/2000 às 05:00
+                    : 
+                  </h4>,
+                  "Test",
+                ],
+                "className": "question-revision-history-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "01/02/2000 às 05:00",
+                      ": ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "01/02/2000 às 05:00",
+                    ": ",
+                  ],
+                  "type": "h4",
+                },
+                "Test",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Components > QuestionRevisionHistory Render 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionRevisionHistory
+    value={
+      Object {
+        "question_revisions": Array [
+          Object {
+            "comment": "Test",
+            "updated_at": "2000-02-01T10:00:00.000Z",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Button
+          ghost={false}
+          icon="clock-circle-o"
+          loading={false}
+          onClick={[Function]}
+          prefixCls="ant-btn"
+        />,
+        <h4>
+          Última Revisão (
+          01/02/2000 às 05:00
+          ): 
+        </h4>,
+        " ",
+        "Test",
+        <Modal
+          confirmLoading={false}
+          footer={
+            Array [
+              <Button
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+              >
+                Fechar
+              </Button>,
+            ]
+          }
+          maskTransitionName="fade"
+          okType="primary"
+          prefixCls="ant-modal"
+          title="Revisões da Questão #undefined"
+          transitionName="zoom"
+          visible={true}
+          width={520}
+        >
+          <div
+            className="question-revision-history-item"
+          >
+            <h4>
+              01/02/2000 às 05:00
+              : 
+            </h4>
+            Test
+          </div>
+        </Modal>,
+      ],
+      "className": "question-revision-history",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "ghost": false,
+          "icon": "clock-circle-o",
+          "loading": false,
+          "onClick": [Function],
+          "prefixCls": "ant-btn",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Última Revisão (",
+            "01/02/2000 às 05:00",
+            "): ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Última Revisão (",
+          "01/02/2000 às 05:00",
+          "): ",
+        ],
+        "type": "h4",
+      },
+      " ",
+      "Test",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="question-revision-history-item"
+            >
+              <h4>
+                01/02/2000 às 05:00
+                : 
+              </h4>
+              Test
+            </div>,
+          ],
+          "confirmLoading": false,
+          "footer": Array [
+            <Button
+              ghost={false}
+              loading={false}
+              onClick={[Function]}
+              prefixCls="ant-btn"
+            >
+              Fechar
+            </Button>,
+          ],
+          "maskTransitionName": "fade",
+          "okType": "primary",
+          "prefixCls": "ant-modal",
+          "title": "Revisões da Questão #undefined",
+          "transitionName": "zoom",
+          "visible": true,
+          "width": 520,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  01/02/2000 às 05:00
+                  : 
+                </h4>,
+                "Test",
+              ],
+              "className": "question-revision-history-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "01/02/2000 às 05:00",
+                    ": ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "01/02/2000 às 05:00",
+                  ": ",
+                ],
+                "type": "h4",
+              },
+              "Test",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Button
+            ghost={false}
+            icon="clock-circle-o"
+            loading={false}
+            onClick={[Function]}
+            prefixCls="ant-btn"
+          />,
+          <h4>
+            Última Revisão (
+            01/02/2000 às 05:00
+            ): 
+          </h4>,
+          " ",
+          "Test",
+          <Modal
+            confirmLoading={false}
+            footer={
+              Array [
+                <Button
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+                >
+                  Fechar
+                </Button>,
+              ]
+            }
+            maskTransitionName="fade"
+            okType="primary"
+            prefixCls="ant-modal"
+            title="Revisões da Questão #undefined"
+            transitionName="zoom"
+            visible={true}
+            width={520}
+          >
+            <div
+              className="question-revision-history-item"
+            >
+              <h4>
+                01/02/2000 às 05:00
+                : 
+              </h4>
+              Test
+            </div>
+          </Modal>,
+        ],
+        "className": "question-revision-history",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "ghost": false,
+            "icon": "clock-circle-o",
+            "loading": false,
+            "onClick": [Function],
+            "prefixCls": "ant-btn",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Última Revisão (",
+              "01/02/2000 às 05:00",
+              "): ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Última Revisão (",
+            "01/02/2000 às 05:00",
+            "): ",
+          ],
+          "type": "h4",
+        },
+        " ",
+        "Test",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="question-revision-history-item"
+              >
+                <h4>
+                  01/02/2000 às 05:00
+                  : 
+                </h4>
+                Test
+              </div>,
+            ],
+            "confirmLoading": false,
+            "footer": Array [
+              <Button
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+              >
+                Fechar
+              </Button>,
+            ],
+            "maskTransitionName": "fade",
+            "okType": "primary",
+            "prefixCls": "ant-modal",
+            "title": "Revisões da Questão #undefined",
+            "transitionName": "zoom",
+            "visible": true,
+            "width": 520,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    01/02/2000 às 05:00
+                    : 
+                  </h4>,
+                  "Test",
+                ],
+                "className": "question-revision-history-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "01/02/2000 às 05:00",
+                      ": ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "01/02/2000 às 05:00",
+                    ": ",
+                  ],
+                  "type": "h4",
+                },
+                "Test",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Components > QuestionRevisionHistory Render 3`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionRevisionHistory
+    value={
+      Object {
+        "question_revisions": Array [
+          Object {
+            "comment": "Test",
+            "updated_at": "2000-02-01T10:00:00.000Z",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Button
+          ghost={false}
+          icon="clock-circle-o"
+          loading={false}
+          onClick={[Function]}
+          prefixCls="ant-btn"
+        />,
+        <h4>
+          Última Revisão (
+          01/02/2000 às 05:00
+          ): 
+        </h4>,
+        " ",
+        "Test",
+        <Modal
+          confirmLoading={false}
+          footer={
+            Array [
+              <Button
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+              >
+                Fechar
+              </Button>,
+            ]
+          }
+          maskTransitionName="fade"
+          okType="primary"
+          prefixCls="ant-modal"
+          title="Revisões da Questão #undefined"
+          transitionName="zoom"
+          visible={true}
+          width={520}
+        >
+          <div
+            className="question-revision-history-item"
+          >
+            <h4>
+              01/02/2000 às 05:00
+              : 
+            </h4>
+            Test
+          </div>
+        </Modal>,
+      ],
+      "className": "question-revision-history",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "ghost": false,
+          "icon": "clock-circle-o",
+          "loading": false,
+          "onClick": [Function],
+          "prefixCls": "ant-btn",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Última Revisão (",
+            "01/02/2000 às 05:00",
+            "): ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Última Revisão (",
+          "01/02/2000 às 05:00",
+          "): ",
+        ],
+        "type": "h4",
+      },
+      " ",
+      "Test",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="question-revision-history-item"
+            >
+              <h4>
+                01/02/2000 às 05:00
+                : 
+              </h4>
+              Test
+            </div>,
+          ],
+          "confirmLoading": false,
+          "footer": Array [
+            <Button
+              ghost={false}
+              loading={false}
+              onClick={[Function]}
+              prefixCls="ant-btn"
+            >
+              Fechar
+            </Button>,
+          ],
+          "maskTransitionName": "fade",
+          "okType": "primary",
+          "prefixCls": "ant-modal",
+          "title": "Revisões da Questão #undefined",
+          "transitionName": "zoom",
+          "visible": true,
+          "width": 520,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4>
+                  01/02/2000 às 05:00
+                  : 
+                </h4>,
+                "Test",
+              ],
+              "className": "question-revision-history-item",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "01/02/2000 às 05:00",
+                    ": ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "01/02/2000 às 05:00",
+                  ": ",
+                ],
+                "type": "h4",
+              },
+              "Test",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Button
+            ghost={false}
+            icon="clock-circle-o"
+            loading={false}
+            onClick={[Function]}
+            prefixCls="ant-btn"
+          />,
+          <h4>
+            Última Revisão (
+            01/02/2000 às 05:00
+            ): 
+          </h4>,
+          " ",
+          "Test",
+          <Modal
+            confirmLoading={false}
+            footer={
+              Array [
+                <Button
+                  ghost={false}
+                  loading={false}
+                  onClick={[Function]}
+                  prefixCls="ant-btn"
+                >
+                  Fechar
+                </Button>,
+              ]
+            }
+            maskTransitionName="fade"
+            okType="primary"
+            prefixCls="ant-modal"
+            title="Revisões da Questão #undefined"
+            transitionName="zoom"
+            visible={true}
+            width={520}
+          >
+            <div
+              className="question-revision-history-item"
+            >
+              <h4>
+                01/02/2000 às 05:00
+                : 
+              </h4>
+              Test
+            </div>
+          </Modal>,
+        ],
+        "className": "question-revision-history",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "ghost": false,
+            "icon": "clock-circle-o",
+            "loading": false,
+            "onClick": [Function],
+            "prefixCls": "ant-btn",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Última Revisão (",
+              "01/02/2000 às 05:00",
+              "): ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Última Revisão (",
+            "01/02/2000 às 05:00",
+            "): ",
+          ],
+          "type": "h4",
+        },
+        " ",
+        "Test",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="question-revision-history-item"
+              >
+                <h4>
+                  01/02/2000 às 05:00
+                  : 
+                </h4>
+                Test
+              </div>,
+            ],
+            "confirmLoading": false,
+            "footer": Array [
+              <Button
+                ghost={false}
+                loading={false}
+                onClick={[Function]}
+                prefixCls="ant-btn"
+              >
+                Fechar
+              </Button>,
+            ],
+            "maskTransitionName": "fade",
+            "okType": "primary",
+            "prefixCls": "ant-modal",
+            "title": "Revisões da Questão #undefined",
+            "transitionName": "zoom",
+            "visible": true,
+            "width": 520,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4>
+                    01/02/2000 às 05:00
+                    : 
+                  </h4>,
+                  "Test",
+                ],
+                "className": "question-revision-history-item",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "01/02/2000 às 05:00",
+                      ": ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "01/02/2000 às 05:00",
+                    ": ",
+                  ],
+                  "type": "h4",
+                },
+                "Test",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Components > QuestionRevisionHistory Render Nothing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionRevisionHistory
+    value={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Components > QuestionRevisionHistory Render Nothing empty revisions 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionRevisionHistory
+    value={
+      Object {
+        "question_revisions": Array [],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
