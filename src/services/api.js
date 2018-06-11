@@ -1,8 +1,7 @@
 import Axios from 'axios'
-import { isAuthenticated, getToken, removeData } from '../redux/modules/user'
-import store from '../redux/store'
+import { requestInterceptor, responseInterceptor, errorInterceptor } from '../utils/interceptors'
 
-class Api {
+export class Api {
   $http
 
   constructor() {
@@ -10,25 +9,9 @@ class Api {
       baseURL: process.env.API_URL || '/api'
     })
 
-    this.$http.interceptors.request.use((config) => {
-      if (config.url.indexOf('auth/token') === -1 && config.url.indexOf('/users') === -1) {
-        if (!isAuthenticated(store.getState().user)) {
-          window.location.reload()
-        } else {
-          config.headers.Authorization = getToken(store.getState().user)
-        }
-      }
-    
-      return config
-    })
+    this.$http.interceptors.request.use(requestInterceptor)
 
-    this.$http.interceptors.response.use(response => response, (err) => {
-      if (err.response && err.response.status === 401) {
-        store.dispatch(removeData())
-        return window.location.reload()
-      }
-      return Promise.reject(err)
-    })
+    this.$http.interceptors.response.use(responseInterceptor, errorInterceptor)
   }
 
   getById(endpoint, id) {
