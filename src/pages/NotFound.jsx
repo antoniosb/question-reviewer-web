@@ -11,7 +11,7 @@ class NotFoundPage extends React.PureComponent {
     return (
         <div className="not-found-page">
           <h1>404</h1>
-          <Button size="large" type="primary" onClick={this.goBack}>Voltar</Button>
+          <Button className="not-found-page-button" size="large" type="primary" onClick={this.goBack}>Voltar</Button>
         </div>
     );
   }

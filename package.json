@@ -86,6 +86,9 @@
       "<rootDir>/__tests__/setup/"
     ],
     "collectCoverage": true,
-    "collectCoverageFrom": ["src/**/*.{js,jsx}"]
+    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "moduleNameMapper": {
+      "\\.(css|scss|less)$": "<rootDir>__tests__/setup/styleMock.js"
+    }
   }
 }
