@@ -2,6 +2,11 @@ import React from 'react'
 import QuestionRevisionHistory from '../../src/components/QuestionRevisionHistory'
 import { Button, Modal } from 'antd';
 
+function getUpdatedData() {
+  const data = new Date(2000, 1, 1)
+  return new Date(data.valueOf() + data.getTimezoneOffset() * 60000);
+}
+
 describe('Components > QuestionRevisionHistory', () => {
   test('Render Nothing', () => {
     const component = shallow(<QuestionRevisionHistory value={{}} />)
@@ -14,7 +19,7 @@ describe('Components > QuestionRevisionHistory', () => {
     expect(component).toMatchSnapshot()
   })
   test('Render', () => {
-    const component = shallow(<QuestionRevisionHistory value={{ question_revisions: [{ updated_at: new Date(2000, 1, 1, 12, 1, 1).toISOString(), comment: 'Test' }] }} />)
+    const component = shallow(<QuestionRevisionHistory value={{ question_revisions: [{ updated_at: getUpdatedData().toISOString(), comment: 'Test' }] }} />)
     expect(component).toMatchSnapshot()
     component.find(Button).simulate('click')
     expect(component).toMatchSnapshot()
