@@ -2,6 +2,7 @@ import React from 'react';
 import { Modal, Form, Input } from 'antd'
 const FormItem = Form.Item
 const { TextArea } = Input
+import formConfig from '../utils/formConfig'
 
 class QuestionReproveConfirmation extends React.PureComponent {
   constructor (props){
@@ -26,7 +27,7 @@ class QuestionReproveConfirmation extends React.PureComponent {
       <Modal visible={visible} title={`Reprovar Questão #${this.props.value.id}`} okText="Reprovar" onCancel={onCancel} onOk={this.onOk}>
         <Form layout="vertical">
           <FormItem label="Comentário">
-            {getFieldDecorator('comment', { rules: [{ required: true, message: 'Campo Obrigatório' }] })(
+            {getFieldDecorator('comment', formConfig())(
               <TextArea placeholder="Comentário" />
             )}
           </FormItem>

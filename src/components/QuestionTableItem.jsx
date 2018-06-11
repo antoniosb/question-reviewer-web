@@ -47,12 +47,13 @@ class QuestionTableItem extends React.PureComponent {
   render() {
     const canEdit = this.props.user.perfil.id === this.props.value.user.id && this.props.value.status === 'R'
     const canReview = this.props.user.perfil.is_admin && this.props.value.status === 'P'
+    const { showModalReprove } = this.state
 
     return (
       <div>
         <p>({this.props.value.source} - {this.props.value.year}) {this.props.value.content}</p>
         <RadioGroup disabled>
-          { this.props.value.question_alternatives.map((alt, idx) => <Radio className={getAlternativeClass(alt)} checked={alt.is_correct} value={idx}>{alt.content}</Radio>) }
+          { this.props.value.question_alternatives.map((alt, idx) => <Radio key={idx} className={getAlternativeClass(alt)} checked={alt.is_correct} value={idx}>{alt.content}</Radio>) }
         </RadioGroup>
         <QuestionRevisionHistory value={this.props.value}></QuestionRevisionHistory>
         <div className="question-table-item-buttons">
@@ -60,7 +61,7 @@ class QuestionTableItem extends React.PureComponent {
           { canReview && <Button size="large" icon="like-o" type="primary" onClick={this.approve}>Aprovar</Button>}
           { canReview && <Button size="large" icon="dislike-o" type="danger" onClick={this.reprove}>Reprovar</Button>}
         </div>
-        <QuestionReproveConfirmation value={this.props.value} visible={this.state.showModalReprove} onCancel={() => this.setState({ showModalReprove: false })} onReprove={this.onReprove} />
+        <QuestionReproveConfirmation value={this.props.value} visible={showModalReprove} onCancel={() => this.setState({ showModalReprove: false })} onReprove={this.onReprove} />
       </div>
     )
   }

@@ -29,7 +29,7 @@ class QuestionRevisionHistory extends React.PureComponent {
             <Button onClick={() => this.setState({ modalVisible: false })}>Fechar</Button>
           ]}>
         { revisions.map((rev, idx) =>
-          <div className="question-revision-history-item">
+          <div className="question-revision-history-item" key={idx}>
             <h4>{formatDateTime(rev.updated_at)}: </h4>{rev.comment}
           </div>
         )}
