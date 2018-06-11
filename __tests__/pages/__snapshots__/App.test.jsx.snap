@@ -51,7 +51,7 @@ ShallowWrapper {
               />
               <Route
                 component={[Function]}
-                path="/cadastro"
+                path="/signUp"
               />
               <Route
                 component={[Function]}
@@ -104,7 +104,7 @@ ShallowWrapper {
                 />
                 <Route
                   component={[Function]}
-                  path="/cadastro"
+                  path="/signUp"
                 />
                 <Route
                   component={[Function]}
@@ -170,7 +170,7 @@ ShallowWrapper {
                 />
                 <Route
                   component={[Function]}
-                  path="/cadastro"
+                  path="/signUp"
                 />
                 <Route
                   component={[Function]}
@@ -207,7 +207,7 @@ ShallowWrapper {
                 />
                 <Route
                   component={[Function]}
-                  path="/cadastro"
+                  path="/signUp"
                 />
                 <Route
                   component={[Function]}
@@ -242,7 +242,7 @@ ShallowWrapper {
                   />,
                   <Route
                     component={[Function]}
-                    path="/cadastro"
+                    path="/signUp"
                   />,
                   <Route
                     component={[Function]}
@@ -304,11 +304,11 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "cadastro",
+                  "key": "signUp",
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "path": "/cadastro",
+                    "path": "/signUp",
                   },
                   "ref": null,
                   "rendered": null,
@@ -389,7 +389,7 @@ ShallowWrapper {
                 />
                 <Route
                   component={[Function]}
-                  path="/cadastro"
+                  path="/signUp"
                 />
                 <Route
                   component={[Function]}
@@ -442,7 +442,7 @@ ShallowWrapper {
                   />
                   <Route
                     component={[Function]}
-                    path="/cadastro"
+                    path="/signUp"
                   />
                   <Route
                     component={[Function]}
@@ -508,7 +508,7 @@ ShallowWrapper {
                   />
                   <Route
                     component={[Function]}
-                    path="/cadastro"
+                    path="/signUp"
                   />
                   <Route
                     component={[Function]}
@@ -545,7 +545,7 @@ ShallowWrapper {
                   />
                   <Route
                     component={[Function]}
-                    path="/cadastro"
+                    path="/signUp"
                   />
                   <Route
                     component={[Function]}
@@ -580,7 +580,7 @@ ShallowWrapper {
                     />,
                     <Route
                       component={[Function]}
-                      path="/cadastro"
+                      path="/signUp"
                     />,
                     <Route
                       component={[Function]}
@@ -642,11 +642,11 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "cadastro",
+                    "key": "signUp",
                     "nodeType": "class",
                     "props": Object {
                       "component": [Function],
-                      "path": "/cadastro",
+                      "path": "/signUp",
                     },
                     "ref": null,
                     "rendered": null,

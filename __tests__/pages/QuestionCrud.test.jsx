@@ -4,7 +4,6 @@ import QuestionCrud from '../../src/pages/QuestionCrud';
 jest.mock('../../src/services/question')
 import questionService from '../../src/services/question'
 import store from '../../src/redux/store'
-import QuestionTable from '../../src/components/QuestionTable';
 import { Tabs, Button, Alert, Form } from 'antd';
 
 function setupComponentTest(id) {
