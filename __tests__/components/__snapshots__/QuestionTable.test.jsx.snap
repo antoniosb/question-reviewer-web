@@ -16,7 +16,7 @@ ShallowWrapper {
             Object {},
             Object {},
           ],
-          "updated_at": "2000-02-01T04:00:00.000Z",
+          "updated_at": "2000-02-01T10:00:00.000Z",
           "user": Object {
             "login": "teste",
           },
@@ -53,7 +53,7 @@ ShallowWrapper {
                     Object {},
                     Object {},
                   ],
-                  "updated_at": "2000-02-01T04:00:00.000Z",
+                  "updated_at": "2000-02-01T10:00:00.000Z",
                   "user": Object {
                     "login": "teste",
                   },
@@ -73,7 +73,7 @@ ShallowWrapper {
                   Object {},
                   Object {},
                 ],
-                "updated_at": "2000-02-01T04:00:00.000Z",
+                "updated_at": "2000-02-01T10:00:00.000Z",
                 "user": Object {
                   "login": "teste",
                 },
@@ -108,7 +108,7 @@ ShallowWrapper {
                   Object {},
                   Object {},
                 ],
-                "updated_at": "2000-02-01T04:00:00.000Z",
+                "updated_at": "2000-02-01T10:00:00.000Z",
                 "user": Object {
                   "login": "teste",
                 },
@@ -127,7 +127,7 @@ ShallowWrapper {
                   Object {},
                   Object {},
                 ],
-                "updated_at": "2000-02-01T04:00:00.000Z",
+                "updated_at": "2000-02-01T10:00:00.000Z",
                 "user": Object {
                   "login": "teste",
                 },
@@ -150,7 +150,7 @@ ShallowWrapper {
                 Object {},
                 Object {},
               ],
-              "updated_at": "2000-02-01T04:00:00.000Z",
+              "updated_at": "2000-02-01T10:00:00.000Z",
               "user": Object {
                 "login": "teste",
               },
@@ -188,7 +188,7 @@ ShallowWrapper {
                       Object {},
                       Object {},
                     ],
-                    "updated_at": "2000-02-01T04:00:00.000Z",
+                    "updated_at": "2000-02-01T10:00:00.000Z",
                     "user": Object {
                       "login": "teste",
                     },
@@ -208,7 +208,7 @@ ShallowWrapper {
                     Object {},
                     Object {},
                   ],
-                  "updated_at": "2000-02-01T04:00:00.000Z",
+                  "updated_at": "2000-02-01T10:00:00.000Z",
                   "user": Object {
                     "login": "teste",
                   },
@@ -243,7 +243,7 @@ ShallowWrapper {
                     Object {},
                     Object {},
                   ],
-                  "updated_at": "2000-02-01T04:00:00.000Z",
+                  "updated_at": "2000-02-01T10:00:00.000Z",
                   "user": Object {
                     "login": "teste",
                   },
@@ -262,7 +262,7 @@ ShallowWrapper {
                     Object {},
                     Object {},
                   ],
-                  "updated_at": "2000-02-01T04:00:00.000Z",
+                  "updated_at": "2000-02-01T10:00:00.000Z",
                   "user": Object {
                     "login": "teste",
                   },
@@ -285,7 +285,7 @@ ShallowWrapper {
                   Object {},
                   Object {},
                 ],
-                "updated_at": "2000-02-01T04:00:00.000Z",
+                "updated_at": "2000-02-01T10:00:00.000Z",
                 "user": Object {
                   "login": "teste",
                 },

@@ -8,7 +8,7 @@ ShallowWrapper {
     item={
       Object {
         "id": 1,
-        "updated_at": "2000-02-01T04:00:00.000Z",
+        "updated_at": "2000-02-01T10:00:00.000Z",
         "user": Object {
           "login": "teste",
         },
@@ -41,7 +41,7 @@ ShallowWrapper {
             type="clock-circle-o"
           />
            Última atualização em 
-          01/02/2000 às 02:00
+          01/02/2000 às 05:00
         </div>,
       ],
       "className": "question-table-item-header",
@@ -74,7 +74,7 @@ ShallowWrapper {
               type="clock-circle-o"
             />,
             " Última atualização em ",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
           ],
         },
         "ref": null,
@@ -91,7 +91,7 @@ ShallowWrapper {
             "type": [Function],
           },
           " Última atualização em ",
-          "01/02/2000 às 02:00",
+          "01/02/2000 às 05:00",
         ],
         "type": "div",
       },
@@ -118,7 +118,7 @@ ShallowWrapper {
               type="clock-circle-o"
             />
              Última atualização em 
-            01/02/2000 às 02:00
+            01/02/2000 às 05:00
           </div>,
         ],
         "className": "question-table-item-header",
@@ -151,7 +151,7 @@ ShallowWrapper {
                 type="clock-circle-o"
               />,
               " Última atualização em ",
-              "01/02/2000 às 02:00",
+              "01/02/2000 às 05:00",
             ],
           },
           "ref": null,
@@ -168,7 +168,7 @@ ShallowWrapper {
               "type": [Function],
             },
             " Última atualização em ",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
           ],
           "type": "div",
         },

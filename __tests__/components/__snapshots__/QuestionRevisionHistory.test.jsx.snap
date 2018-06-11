@@ -10,7 +10,7 @@ ShallowWrapper {
         "question_revisions": Array [
           Object {
             "comment": "Test",
-            "updated_at": "2000-02-01T04:00:00.000Z",
+            "updated_at": "2000-02-01T10:00:00.000Z",
           },
         ],
       }
@@ -38,7 +38,7 @@ ShallowWrapper {
         />,
         <h4>
           Última Revisão (
-          01/02/2000 às 02:00
+          01/02/2000 às 05:00
           ): 
         </h4>,
         " ",
@@ -69,7 +69,7 @@ ShallowWrapper {
             className="question-revision-history-item"
           >
             <h4>
-              01/02/2000 às 02:00
+              01/02/2000 às 05:00
               : 
             </h4>
             Test
@@ -102,14 +102,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             "Última Revisão (",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
             "): ",
           ],
         },
         "ref": null,
         "rendered": Array [
           "Última Revisão (",
-          "01/02/2000 às 02:00",
+          "01/02/2000 às 05:00",
           "): ",
         ],
         "type": "h4",
@@ -126,7 +126,7 @@ ShallowWrapper {
               className="question-revision-history-item"
             >
               <h4>
-                01/02/2000 às 02:00
+                01/02/2000 às 05:00
                 : 
               </h4>
               Test
@@ -160,7 +160,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h4>
-                  01/02/2000 às 02:00
+                  01/02/2000 às 05:00
                   : 
                 </h4>,
                 "Test",
@@ -175,13 +175,13 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "01/02/2000 às 02:00",
+                    "01/02/2000 às 05:00",
                     ": ",
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
-                  "01/02/2000 às 02:00",
+                  "01/02/2000 às 05:00",
                   ": ",
                 ],
                 "type": "h4",
@@ -212,7 +212,7 @@ ShallowWrapper {
           />,
           <h4>
             Última Revisão (
-            01/02/2000 às 02:00
+            01/02/2000 às 05:00
             ): 
           </h4>,
           " ",
@@ -243,7 +243,7 @@ ShallowWrapper {
               className="question-revision-history-item"
             >
               <h4>
-                01/02/2000 às 02:00
+                01/02/2000 às 05:00
                 : 
               </h4>
               Test
@@ -276,14 +276,14 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               "Última Revisão (",
-              "01/02/2000 às 02:00",
+              "01/02/2000 às 05:00",
               "): ",
             ],
           },
           "ref": null,
           "rendered": Array [
             "Última Revisão (",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
             "): ",
           ],
           "type": "h4",
@@ -300,7 +300,7 @@ ShallowWrapper {
                 className="question-revision-history-item"
               >
                 <h4>
-                  01/02/2000 às 02:00
+                  01/02/2000 às 05:00
                   : 
                 </h4>
                 Test
@@ -334,7 +334,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <h4>
-                    01/02/2000 às 02:00
+                    01/02/2000 às 05:00
                     : 
                   </h4>,
                   "Test",
@@ -349,13 +349,13 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "01/02/2000 às 02:00",
+                      "01/02/2000 às 05:00",
                       ": ",
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
-                    "01/02/2000 às 02:00",
+                    "01/02/2000 às 05:00",
                     ": ",
                   ],
                   "type": "h4",
@@ -391,7 +391,7 @@ ShallowWrapper {
         "question_revisions": Array [
           Object {
             "comment": "Test",
-            "updated_at": "2000-02-01T04:00:00.000Z",
+            "updated_at": "2000-02-01T10:00:00.000Z",
           },
         ],
       }
@@ -419,7 +419,7 @@ ShallowWrapper {
         />,
         <h4>
           Última Revisão (
-          01/02/2000 às 02:00
+          01/02/2000 às 05:00
           ): 
         </h4>,
         " ",
@@ -450,7 +450,7 @@ ShallowWrapper {
             className="question-revision-history-item"
           >
             <h4>
-              01/02/2000 às 02:00
+              01/02/2000 às 05:00
               : 
             </h4>
             Test
@@ -483,14 +483,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             "Última Revisão (",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
             "): ",
           ],
         },
         "ref": null,
         "rendered": Array [
           "Última Revisão (",
-          "01/02/2000 às 02:00",
+          "01/02/2000 às 05:00",
           "): ",
         ],
         "type": "h4",
@@ -507,7 +507,7 @@ ShallowWrapper {
               className="question-revision-history-item"
             >
               <h4>
-                01/02/2000 às 02:00
+                01/02/2000 às 05:00
                 : 
               </h4>
               Test
@@ -541,7 +541,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h4>
-                  01/02/2000 às 02:00
+                  01/02/2000 às 05:00
                   : 
                 </h4>,
                 "Test",
@@ -556,13 +556,13 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "01/02/2000 às 02:00",
+                    "01/02/2000 às 05:00",
                     ": ",
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
-                  "01/02/2000 às 02:00",
+                  "01/02/2000 às 05:00",
                   ": ",
                 ],
                 "type": "h4",
@@ -593,7 +593,7 @@ ShallowWrapper {
           />,
           <h4>
             Última Revisão (
-            01/02/2000 às 02:00
+            01/02/2000 às 05:00
             ): 
           </h4>,
           " ",
@@ -624,7 +624,7 @@ ShallowWrapper {
               className="question-revision-history-item"
             >
               <h4>
-                01/02/2000 às 02:00
+                01/02/2000 às 05:00
                 : 
               </h4>
               Test
@@ -657,14 +657,14 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               "Última Revisão (",
-              "01/02/2000 às 02:00",
+              "01/02/2000 às 05:00",
               "): ",
             ],
           },
           "ref": null,
           "rendered": Array [
             "Última Revisão (",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
             "): ",
           ],
           "type": "h4",
@@ -681,7 +681,7 @@ ShallowWrapper {
                 className="question-revision-history-item"
               >
                 <h4>
-                  01/02/2000 às 02:00
+                  01/02/2000 às 05:00
                   : 
                 </h4>
                 Test
@@ -715,7 +715,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <h4>
-                    01/02/2000 às 02:00
+                    01/02/2000 às 05:00
                     : 
                   </h4>,
                   "Test",
@@ -730,13 +730,13 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "01/02/2000 às 02:00",
+                      "01/02/2000 às 05:00",
                       ": ",
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
-                    "01/02/2000 às 02:00",
+                    "01/02/2000 às 05:00",
                     ": ",
                   ],
                   "type": "h4",
@@ -772,7 +772,7 @@ ShallowWrapper {
         "question_revisions": Array [
           Object {
             "comment": "Test",
-            "updated_at": "2000-02-01T04:00:00.000Z",
+            "updated_at": "2000-02-01T10:00:00.000Z",
           },
         ],
       }
@@ -800,7 +800,7 @@ ShallowWrapper {
         />,
         <h4>
           Última Revisão (
-          01/02/2000 às 02:00
+          01/02/2000 às 05:00
           ): 
         </h4>,
         " ",
@@ -831,7 +831,7 @@ ShallowWrapper {
             className="question-revision-history-item"
           >
             <h4>
-              01/02/2000 às 02:00
+              01/02/2000 às 05:00
               : 
             </h4>
             Test
@@ -864,14 +864,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             "Última Revisão (",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
             "): ",
           ],
         },
         "ref": null,
         "rendered": Array [
           "Última Revisão (",
-          "01/02/2000 às 02:00",
+          "01/02/2000 às 05:00",
           "): ",
         ],
         "type": "h4",
@@ -888,7 +888,7 @@ ShallowWrapper {
               className="question-revision-history-item"
             >
               <h4>
-                01/02/2000 às 02:00
+                01/02/2000 às 05:00
                 : 
               </h4>
               Test
@@ -922,7 +922,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h4>
-                  01/02/2000 às 02:00
+                  01/02/2000 às 05:00
                   : 
                 </h4>,
                 "Test",
@@ -937,13 +937,13 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "01/02/2000 às 02:00",
+                    "01/02/2000 às 05:00",
                     ": ",
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
-                  "01/02/2000 às 02:00",
+                  "01/02/2000 às 05:00",
                   ": ",
                 ],
                 "type": "h4",
@@ -974,7 +974,7 @@ ShallowWrapper {
           />,
           <h4>
             Última Revisão (
-            01/02/2000 às 02:00
+            01/02/2000 às 05:00
             ): 
           </h4>,
           " ",
@@ -1005,7 +1005,7 @@ ShallowWrapper {
               className="question-revision-history-item"
             >
               <h4>
-                01/02/2000 às 02:00
+                01/02/2000 às 05:00
                 : 
               </h4>
               Test
@@ -1038,14 +1038,14 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               "Última Revisão (",
-              "01/02/2000 às 02:00",
+              "01/02/2000 às 05:00",
               "): ",
             ],
           },
           "ref": null,
           "rendered": Array [
             "Última Revisão (",
-            "01/02/2000 às 02:00",
+            "01/02/2000 às 05:00",
             "): ",
           ],
           "type": "h4",
@@ -1062,7 +1062,7 @@ ShallowWrapper {
                 className="question-revision-history-item"
               >
                 <h4>
-                  01/02/2000 às 02:00
+                  01/02/2000 às 05:00
                   : 
                 </h4>
                 Test
@@ -1096,7 +1096,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <h4>
-                    01/02/2000 às 02:00
+                    01/02/2000 às 05:00
                     : 
                   </h4>,
                   "Test",
@@ -1111,13 +1111,13 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "01/02/2000 às 02:00",
+                      "01/02/2000 às 05:00",
                       ": ",
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
-                    "01/02/2000 às 02:00",
+                    "01/02/2000 às 05:00",
                     ": ",
                   ],
                   "type": "h4",
