@@ -38,7 +38,6 @@ class AuthPage extends React.Component {
         method(values).then(() => {
           this.setState({ authenticated: true })
         }).catch((err) => {
-          console.log({ err })
           this.setState({ errorMsg: getApiErrorMessage('Usuário', err) })
         })
       }

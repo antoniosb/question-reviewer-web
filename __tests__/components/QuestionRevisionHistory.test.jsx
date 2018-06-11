@@ -14,7 +14,7 @@ describe('Components > QuestionRevisionHistory', () => {
     expect(component).toMatchSnapshot()
   })
   test('Render', () => {
-    const component = shallow(<QuestionRevisionHistory value={{ question_revisions: [{ updated_at: new Date(2000, 1, 1).toISOString(), comment: 'Test' }] }} />)
+    const component = shallow(<QuestionRevisionHistory value={{ question_revisions: [{ updated_at: new Date(2000, 1, 1, 12, 1, 1).toISOString(), comment: 'Test' }] }} />)
     expect(component).toMatchSnapshot()
     component.find(Button).simulate('click')
     expect(component).toMatchSnapshot()

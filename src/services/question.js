@@ -59,6 +59,13 @@ class QuestionService {
       }).catch((err) => reject(err))
     })
   }
+
+  save (data) {
+    if (Boolean(data.id)) {
+      return this.update(data)
+    }
+    return this.create(data)
+  }
 }
 
 export default new QuestionService()

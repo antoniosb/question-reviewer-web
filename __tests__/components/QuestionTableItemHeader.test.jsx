@@ -6,7 +6,7 @@ describe('Components > QuestionTableItemHeader', () => {
     const component = shallow(<QuestionTableItemHeader item={{
       user: { login: 'teste' },
       id: 1,
-      updated_at: new Date(2000, 11, 1).toISOString()
+      updated_at: new Date(2000, 11, 1, 12, 1, 1).toISOString()
     }} />)
 
     expect(component).toMatchSnapshot()

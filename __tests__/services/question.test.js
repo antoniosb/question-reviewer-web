@@ -28,9 +28,9 @@ describe('Services > Question', () => {
     })
   })
   test('Get', (done) => {
-    api.getById.mockResolvedValue({ data: { id: 0} })
+    api.getById.mockResolvedValue({ data: { id: 1} })
     questionService.get().then((res) => {
-      expect(res.id).toEqual(0)
+      expect(res.id).toEqual(1)
       done()
     })
   })
@@ -42,7 +42,7 @@ describe('Services > Question', () => {
     })
   })
   test('Review', (done) => {
-    api.post.mockResolvedValue({id: 0})
+    api.post.mockResolvedValue({id: 1})
     api.list.mockResolvedValue({ data: [{}] })
     questionService.reprove().then((res) => {
       expect(store.getState().question.reproved).toHaveLength(1)
@@ -51,27 +51,27 @@ describe('Services > Question', () => {
   })
   test('Update Error', (done) => {
     api.update.mockImplementation(() => Promise.reject(new Error('test error')))
-    questionService.update({id: 0}).catch((err) => {
+    questionService.save({id: 1}).catch((err) => {
       expect(err.message).toEqual('test error')
       done()
     })
   })
   test('Update', (done) => {
-    api.update.mockResolvedValue({id: 0})
-    questionService.update({ id: 0 }).then((res) => {
+    api.update.mockResolvedValue({id: 1})
+    questionService.save({ id: 1 }).then((res) => {
       done()
     })
   })
   test('Create Error', (done) => {
     api.post.mockImplementation(() => Promise.reject(new Error('test error')))
-    questionService.create().catch((err) => {
+    questionService.save({}).catch((err) => {
       expect(err.message).toEqual('test error')
       done()
     })
   })
   test('Create', (done) => {
-    api.post.mockResolvedValue({id: 0})
-    questionService.create().then((res) => {
+    api.post.mockResolvedValue({id: 1})
+    questionService.save({}).then((res) => {
       done()
     })
   })
