@@ -4,8 +4,10 @@
 
 ## Dependencies
  * Node & NPM
+ * API Project (https://github.com/hermogenes/question-reviewer-api)
 
 ## Run tests
+    npm install
     npm test
     
 ## Local Run
